@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    padding: 23px;
+    border: none;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+}
+
+input::-moz-placeholder {
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+}
+
+input:-moz-placeholder {
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+}
+
+input::placeholder {
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+}
+  
+
+input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+    padding: 38px 20px;
+    border: 3px solid #ffffff;
+    outline: 0;
+    color: #ffffff;
+    caret-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-33 {
+    width: 33%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-66 {
+    width: 66%;
+}
+
+.nav {
+    background-color: #695CFF;
+}
+
+.nav_transparent {
+    background: transparent;
+}
+
+.nav ul {
+    margin: 0;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 0;
+}
+
+.nav ul li {
+    padding: 0 20px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    height: 100vh;
+    background: -o-radial-gradient(57.99% 29.82%, 33.27% 51.3%, rgba(255, 0, 0, 0.5) 0%, rgba(107, 57, 147, 0.5) 100%), #6B3993;
+    background: radial-gradient(33.27% 51.3% at 57.99% 29.82%, rgba(255, 0, 0, 0.5) 0%, rgba(107, 57, 147, 0.5) 100%), #6B3993;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner__ilustration {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 60%;
+    z-index: 1;
+}
+
+.banner__title {
+    font-size: 150px;
+    line-height: 150px;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    margin: 0;
+}
+
+.section {
+    background-color: #695CFF;
+}
+
+.section__title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #FFEF5F;
+    margin: 0;
+}
+
+.section__subtitle {
+    font-size: 74px;
+    line-height: 90px;
+    margin: 0 0 65px;
+}
+
+.section__content {
+    padding: 50px;
+}
+
+.section_about p {
+    margin: 0;
+}
+
+.section_about p {
+    max-width: 500px;
+}
+
+.section_about .count {
+    font-size: 150px;
+    font-weight: 700;
+}
+
+.section__info {
+    margin-top: 150px;
+}
+
+.section_about .vector1 {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 160px;
+    height: 470px;
+}
+
+.section_about .vector2 {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 403px;
+    height: 475px;
+}
+
+.section_price {
+    height: 1037px;
+    padding: 130px 0;
+    background-image: url(../img/section_price_bg.png);
+}
+
+.section_price ol {
+    line-height: 36px;
+}
+
+.section_form button {
+    width: 420px;
+    margin-top: 50px;
+}
+
+.section_form .vector {
+    width: 825px;
+    height: 681px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.section_about-page .section__title {
+    padding-bottom: 30px;
+}
+
+.section_inverted {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.section_inverted .section__content {
+    padding: 64px 0 100px;
+}
+
+.section_inverted .about-vector-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 490px;
+}
+
+.section-about-text {
+    max-width: calc(100% - 200px);
+    margin-bottom: 64px;
+}
+
+.about-vector-2 {
+    width: 403px;
+    height: 381px;
+    margin-left: auto;
+    display: block;
+}
+
+.section_book {
+    background-image: url(../img/about_book_bg.png);
+    height: 732px;
+    padding: 150px 0;
+}
+
+.section_book p {
+    max-width: 800px;
+    margin-bottom: 78px;
+}
+
+.product-card {
+    margin-bottom: 30px;
+}
+
+.product-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10px;
+}
+
+.section_book button {
+    width: 515px;
+}
+
+.section_shop .section__subtitle {
+    margin-bottom: 0;
+}
+
+.section_shop p {
+    margin: 20px 0 50px;
+}
+
+.footer {
+    padding: 50px 0 90px;
+    background: -o-radial-gradient(57.99% 29.82%, 33.27% 51.3%, rgba(255, 0, 0, 0.5) 0%, rgba(107, 57, 147, 0.5) 100%), #6B3993;
+    background: radial-gradient(33.27% 51.3% at 57.99% 29.82%, rgba(255, 0, 0, 0.5) 0%, rgba(107, 57, 147, 0.5) 100%), #6B3993;
+}
+
+.logo-school {
+    width: 212px;
+    height: 89px;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mb-100 {
+    margin-bottom: 100px !important;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1370px;
+    }
+}
